@@ -1,0 +1,7 @@
+<canvas drawable (newImage)="predict($event)"></canvas>
+<button (click)="canvas.clear()">Clear</button>
+<p>{{answear}}</p>
+<p>{{predictions}}</p>
+<p>{{by_merge_map}}</p>
+<p>{{ansNum}}</p>
+<input type="number" [formControl]="chosen_model">
