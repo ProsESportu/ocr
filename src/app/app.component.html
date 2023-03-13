@@ -4,4 +4,10 @@
 <p>{{predictions}}</p>
 <p>{{by_merge_map}}</p>
 <p>{{ansNum}}</p>
-<input type="number" [formControl]="chosen_model">
+<label for="model" >
+
+        0-model mniej precyzyjny, ale działający z literami <br>
+        1-model bardziej precyzyjny, ale nie działający z literami <br>
+
+</label>
+<input type="number" id="model" [formControl]="chosen_model">
